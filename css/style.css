@@ -1,13 +1,16 @@
+/* colore sfondo pagina */
 *{
-  background-color: lightblue;
+  background-color: #f4f9fd;
 }
 
+/* regole generali */
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* classe clearfix */
 .clearfix::after{
   content: "";
   display: table;
@@ -18,8 +21,8 @@
   width: 75%;
   margin: auto;
   /* attributi da togliere */
-  background: red;
-  border: 2px solid lime;
+  background: inherit;
+  /* border: 2px solid lime; */
   /* attributi da togliere   */
 }
 
@@ -27,7 +30,7 @@
 #selezionelingua{
   float: left;
   /* attributi da togliere */
-  height: 120px;
+  height:   120px;
   background: yellow;
   border: 2px solid lime;
   width: 15%;
@@ -95,6 +98,17 @@
   background-size: cover;
 }
 
+/* contenitore testo jumbotron */
+.testojumbotron{
+  width: 75%;
+  margin: auto;
+  /* attributi da togliere */
+  background: red;
+  min-height: 100px;
+  border: 2px solid lime;
+  /* attributi da togliere   */
+}
+
 /* container sezione immaigne cubo */
 .container2{
   width: 75%;
@@ -102,8 +116,8 @@
   margin-top: 50px;
   text-align: center;
   /* attributi da togliere */
-  background: red;
-  border: 2px solid lime;
+  /* background: red; */
+  /* border: 2px solid lime; */
   /* attributi da togliere   */
 }
 
@@ -119,7 +133,7 @@
   margin-top: 50px;
   text-align: center;
   /* attributi da togliere */
-  background: red;
+  /* background: red; */
   border: 2px solid lime;
   /* attributi da togliere   */
 }
@@ -128,7 +142,7 @@
 #orizzontalesx{
   float: left;
   /* attributi da togliere */
-  height: 120px;
+  /* height: 120px; */
   background: orange;
   border: 2px solid lime;
   width: 15%;
@@ -138,10 +152,10 @@
 #orizzontaledx{
   float: right;
   /* attributi da togliere */
-  height: 120px;
+  /* height: 120px; */
   background: yellow;
   border: 2px solid lime;
-  width: 15%;
+  /* width: 15%; */
   /* attributi da togliere */
 }
 /* fine blocco orizzontale */
@@ -158,11 +172,16 @@
   /* attributi da togliere   */
 }
 
+/* grandezza immagini blocchi colonne DA RIVEDERE */
+#immaginicolonne{
+  width:40%;
+}
+
 /* colonne in float */
 #colonnasx{
   float: left;
   /* attributi da togliere */
-  height: 350px;
+  /* height: 350px; */
   background: yellow;
   border: 2px solid lime;
   width: 30%;
@@ -173,7 +192,7 @@
   float:left;
   margin: 0 5%;
   /* attributi da togliere */
-  height: 350px;
+  /* height: 350px; */
   background: yellow;
   border: 2px solid lime;
   width: 30%;
@@ -183,7 +202,7 @@
 #colonnadx{
   float: right;
   /* attributi da togliere */
-  height: 350px;
+  /* height: 350px; */
   background: yellow;
   border: 2px solid lime;
   width: 30%;
@@ -210,7 +229,7 @@
   /* attributi da togliere */
   background: yellow;
   border: 2px solid lime;
-  min-height: 100px;
+  /* min-height: 100px; */
   /* attributi da togliere   */
 }
 
@@ -222,9 +241,9 @@
   margin-top: 40px;
   text-align: center;
   /* attributi da togliere */
-  background: yellow;
-  border: 2px solid lime;
-  min-height: 100px;
+  /* background: yellow; */
+  /* border: 2px solid lime; */
+  /* min-height: 100px; */
   /* attributi da togliere   */
 }
 
@@ -234,7 +253,7 @@
   /* attributi da togliere */
   background: green;
   border: 2px solid lime;
-  min-height: 100px;
+  /* min-height: 100px; */
   /* attributi da togliere   */
 }
 
@@ -295,6 +314,7 @@
 /* inizio parte inferiore */
 #cresci{
   float: left;
+  text-align: left;
     width: 60%;
     min-height: 100px;
     /* attributi da togliere */
@@ -306,19 +326,25 @@
 #woman{
   float: left;
     width: 40%;
-    min-height: 100px;
+    /* min-height: 100px; */
     /* attributi da togliere */
-    background: yellow;
-    border: 2px solid lime;
+    /* background: yellow; */
+    /* border: 2px solid lime; */
     /* attributi da togliere */
+}
+
+#donna{
+  float: right;
+  width: 70%;
+
 }
 /* fine parte inferiore */
 
 /* inizio footer */
 footer{
   margin-top: 50px;
+  background: #32495b;
   /* attributi da togliere */
-  background: darkblue;
   border: 2px solid yellow;
   border-style: dotted;
   /* attributi da togliere */
@@ -328,7 +354,7 @@ footer{
   width: 100%;
   text-align: center;
   /* attributi da togliere */
-  background: darkblue;
+  background: #32495b;
   border: 2px solid lime;
   /* attributi da togliere   */
 }
