@@ -1,0 +1,416 @@
+*{
+  background-color: lightblue;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container{
+  width: 75%;
+  margin: auto;
+  /* attributi da togliere */
+  background: red;
+  border: 2px solid lime;
+  /* attributi da togliere   */
+}
+
+/* prima parte del menu top left */
+#selezionelingua{
+  float: left;
+  /* attributi da togliere */
+  height: 120px;
+  background: yellow;
+  border: 2px solid lime;
+  width: 15%;
+  /* attributi da togliere */
+}
+
+#contattaci{
+  float: left;
+  /* attributi da togliere */
+  height: 120px;
+  background: orange;
+  border: 2px solid lime;
+  width: 15%;
+  /* attributi da togliere */
+}
+
+/* prima parte del menu top right */
+#login{
+  float: right;
+  /* attributi da togliere */
+  height: 120px;
+  background: yellow;
+  border: 2px solid lime;
+  width: 15%;
+  /* attributi da togliere */
+}
+
+#free{
+  float: right;
+  /* attributi da togliere */
+  height: 120px;
+  background: orange;
+  border: 2px solid lime;
+  width: 15%;
+  /* attributi da togliere */
+}
+
+/* logo hubspot home */
+#logohome{
+  float: left;
+  /* attributi da togliere */
+  height: 120px;
+  background: orange;
+  border: 2px solid lime;
+  width: 15%;
+  /* attributi da togliere */
+}
+
+/* barra navigazione menu bot right */
+.navbar{
+  float: right;
+  /* attributi da togliere */
+  height: 120px;
+  background: yellow;
+  border: 2px solid lime;
+  width: 8%;
+  /* attributi da togliere */
+}
+
+/* immagine centrale */
+#jumbotron{
+  width: 100%;
+  min-height: 695px;
+  background-image: url(../img/jumbotron.png);
+  background-size: cover;
+}
+
+/* container sezione immaigne cubo */
+.container2{
+  width: 75%;
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+  /* attributi da togliere */
+  background: red;
+  border: 2px solid lime;
+  /* attributi da togliere   */
+}
+
+/* immagine cubo */
+#Cubo{
+  width: 20%;
+}
+
+/* container blocco orizzontale */
+.container3{
+  width: 75%;
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+  /* attributi da togliere */
+  background: red;
+  border: 2px solid lime;
+  /* attributi da togliere   */
+}
+
+/* blocco orizzontale */
+#orizzontalesx{
+  float: left;
+  /* attributi da togliere */
+  height: 120px;
+  background: orange;
+  border: 2px solid lime;
+  width: 15%;
+  /* attributi da togliere */
+}
+
+#orizzontaledx{
+  float: right;
+  /* attributi da togliere */
+  height: 120px;
+  background: yellow;
+  border: 2px solid lime;
+  width: 15%;
+  /* attributi da togliere */
+}
+/* fine blocco orizzontale */
+
+/* contenitore sezione tre colonne */
+.container4 {
+  width: 75%;
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+  /* attributi da togliere */
+  background: red;
+  border: 2px solid lime;
+  /* attributi da togliere   */
+}
+
+/* colonne in float */
+#colonnasx{
+  float: left;
+  /* attributi da togliere */
+  height: 350px;
+  background: yellow;
+  border: 2px solid lime;
+  width: 30%;
+  /* attributi da togliere */
+}
+
+#colonnasx1{
+  float:left;
+  margin: 0 5%;
+  /* attributi da togliere */
+  height: 350px;
+  background: yellow;
+  border: 2px solid lime;
+  width: 30%;
+  /* attributi da togliere */
+}
+
+#colonnadx{
+  float: right;
+  /* attributi da togliere */
+  height: 350px;
+  background: yellow;
+  border: 2px solid lime;
+  width: 30%;
+  /* attributi da togliere */
+}
+/* fine contenitore sezione tre colonne */
+
+/* inizio sezione griglia */
+.container5 {
+  width: 100%;
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+  /* attributi da togliere */
+  background: red;
+  border: 2px solid lime;
+  /* attributi da togliere   */
+}
+
+#sezionetesto {
+  width: 75%;
+  margin: auto;
+  text-align: center;
+  /* attributi da togliere */
+  background: yellow;
+  border: 2px solid lime;
+  min-height: 100px;
+  /* attributi da togliere   */
+}
+
+/* griglia */
+
+.griglia{
+  width: 75%;
+  margin: auto;
+  margin-top: 40px;
+  text-align: center;
+  /* attributi da togliere */
+  background: yellow;
+  border: 2px solid lime;
+  min-height: 100px;
+  /* attributi da togliere   */
+}
+
+.row{
+  width: 100%;
+  text-align: center;
+  /* attributi da togliere */
+  background: green;
+  border: 2px solid lime;
+  min-height: 100px;
+  /* attributi da togliere   */
+}
+
+.rigatop{
+  float: left;
+  width: 25%;
+  /* attributi da togliere */
+  background: pink;
+  border: 2px solid yellow;
+  min-height: 100px;
+  /* attributi da togliere */
+}
+
+.rigabot{
+  float: left;
+  width: 25%;
+  /* attributi da togliere */
+  background: pink;
+  border: 2px solid yellow;
+  min-height: 100px;
+  /* attributi da togliere */
+}
+
+/* container data e loghi */
+.container6 {
+  width: 75%;
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+  /* attributi da togliere */
+  background: red;
+  border: 2px solid lime;
+  /* attributi da togliere   */
+}
+
+/* inizio parte superiore */
+#data{
+  float: left;
+    width: 40%;
+    min-height: 100px;
+    /* attributi da togliere */
+    background: yellow;
+    border: 2px solid lime;
+    /* attributi da togliere */
+}
+
+#sponsor{
+  float: left;
+    width: 60%;
+    min-height: 100px;
+    /* attributi da togliere */
+    background: yellow;
+    border: 2px solid lime;
+    /* attributi da togliere */
+}
+/* fine parte superiore */
+
+/* inizio parte inferiore */
+#cresci{
+  float: left;
+    width: 60%;
+    min-height: 100px;
+    /* attributi da togliere */
+    background: yellow;
+    border: 2px solid lime;
+    /* attributi da togliere */
+}
+
+#woman{
+  float: left;
+    width: 40%;
+    min-height: 100px;
+    /* attributi da togliere */
+    background: yellow;
+    border: 2px solid lime;
+    /* attributi da togliere */
+}
+/* fine parte inferiore */
+
+/* inizio footer */
+footer{
+  margin-top: 50px;
+  /* attributi da togliere */
+  background: darkblue;
+  border: 2px solid yellow;
+  border-style: dotted;
+  /* attributi da togliere */
+}
+
+.container7 {
+  width: 100%;
+  text-align: center;
+  /* attributi da togliere */
+  background: darkblue;
+  border: 2px solid lime;
+  /* attributi da togliere   */
+}
+
+/* container menu a colonne */
+.contenitorecolonnenav{
+  width: 75%;
+  margin: auto;
+  text-align: center;
+  /* attributi da togliere */
+  background: red;
+  border: 2px solid red;
+  /* attributi da togliere   */
+}
+
+#colonnasin{
+  float: left;
+  /* attributi da togliere */
+  height: 350px;
+  background: yellow;
+  border: 2px solid lime;
+  width: 25%;
+  /* attributi da togliere */
+}
+
+/* contenitore fine pagina */
+.container8 {
+  width: 75%;
+  margin: auto;
+  margin-top: 50px;
+  /* attributi da togliere */
+  background: red;
+  border: 2px solid lime;
+  /* attributi da togliere   */
+}
+
+/* selezione lingua */
+.barralingue{
+  width: 50%;
+  margin: auto;
+  /* attributi da togliere */
+  min-height: 80px;
+  background: lime;
+  border: 2px soid yellow;
+}
+
+/* contenitore fine pagina inferiore */
+.container9 {
+  width: 75%;
+  margin: auto;
+  /* attributi da togliere */
+  background: red;
+  border: 2px solid lime;
+  /* attributi da togliere   */
+}
+
+#logofine{
+  float: left;
+  /* attributi da togliere */
+  height: 120px;
+  background: yellow;
+  border: 2px solid lime;
+  width: 15%;
+  /* attributi da togliere */
+}
+
+#legal{
+  float: right;
+  /* attributi da togliere */
+  height: 120px;
+  background: yellow;
+  border: 2px solid lime;
+  width: 15%;
+  /* attributi da togliere */
+}
+
+#privacy{
+  float: right;
+  /* attributi da togliere */
+  height: 120px;
+  background: orange;
+  border: 2px solid lime;
+  width: 15%;
+  /* attributi da togliere */
+}
